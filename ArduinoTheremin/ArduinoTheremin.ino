@@ -2,6 +2,8 @@
 #include <NewPing.h>
 #define LOG_OUTPUT 0
 #define LINEAR_SCALE 0
+#define MIN_SCALED_TONE ((size_t)24)
+#define MAX_SCALED_TONE ((size_t)48)
 
 #define VOLUME_TRIG ((uint8_t)3)
 #define VOLUME_ECHO ((uint8_t)4)
@@ -84,8 +86,7 @@ unsigned int scale_volume(unsigned int vol_distance)
 /*
  * Indices into freqtable to set the min/max frequency range.
  */
-#define MIN_SCALED_TONE ((size_t)24)
-#define MAX_SCALED_TONE ((size_t)48)
+
 // #define MIN_SCALED_TONE ((size_t)0)
 // #define MAX_SCALED_TONE ((size_t)24)
 #define RANGE_SCALED_TONE (MAX_SCALED_TONE - MIN_SCALED_TONE)
