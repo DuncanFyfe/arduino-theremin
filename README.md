@@ -24,7 +24,7 @@ This final power connection is the last thing we will do.
 ![Breadboard with Vcc and Ground highlighted.](images/breadboard_vcc_gnd.jpg)
 
 *  Red lines connect **Vcc** lines
-*  Black lines connect common *ground** lines
+*  Black lines connect common **ground** lines
 *  Blue lines highlight how breadboard is wired underneath.  
 
 ## Connect Speaker and Amplifier
